@@ -58,16 +58,12 @@
 6. "	Unknown error java.lang.Exception: https://jreisinger05.github.io/debugging-html-css/layout.css: Not Found"
 I'm not qualified to deal with anything in layout.css, but the error did appear when I checked the URL.
 
-## WAVE Web Accessibility Evaluation corrections:
-1. 
-
-
-## Other corrections:
+## Accessibility & other corrections:
 1. Fixed an image file that was not showing.
       <!-- <img src="easter-bunny-150-profile.png" alt="Easter Bunny"> -->
       <img src="images\easter-bunny-150-profile.png" alt="Easter Bunny">
 
-2. Corrected body and nav colors.
+2. Corrected body and nav colors for better contrast.
 /* body {
 	background-color: #B2D732;
 } */
@@ -90,19 +86,7 @@ nav {
  }
 
  4. Corrected some headings beneath the "My Avatar" section.
- <!--         <article>
-          <h4>The Easter Bunny</h4>
-          <p>The Easter Bunny (also called the Easter Rabbit or Easter Hare) is a folkloric figure and symbol of Easter, depicted as a rabbit—sometimes dressed with clothes—bringing Easter eggs. Originating among German Lutherans, the "Easter Hare" originally played the role of a judge, evaluating whether children were good or disobedient in behavior at the start of the season of Eastertide, similar to the "naughty or nice" list made by Santa Claus. As part of the legend, the creature carries colored eggs in its basket, as well as candy, and sometimes toys, to the homes of children. As such, the Easter Bunny again shows similarities to Santa (or the Christkind) and Christmas by bringing gifts to children on the night before a holiday. The custom was first mentioned in Georg Franck von Franckenau's De ovis paschalibus ('About Easter eggs') in 1682, referring to a German tradition of an Easter Hare bringing eggs for the children. </p>
-        </article>
-        <article>
-          <h5>Rabbits and Hares</h5>
-          <p>The hare was a popular motif in medieval church art. In ancient times, it was widely believed (as by Pliny, Plutarch, Philostratus, and Aelian) that the hare was a hermaphrodite. The idea that a hare could reproduce without loss of virginity led to an association with the Virgin Mary, with hares sometimes occurring in illuminated manuscripts and Northern European paintings of the Virgin and Christ Child. It may also have been associated with the Holy Trinity, as in the three hares motif.</p>
-        </article> -->
-        <article>
+          <!-- <h4>The Easter Bunny</h4> -->
           <h3>The Easter Bunny</h3>
-          <p>The Easter Bunny (also called the Easter Rabbit or Easter Hare) is a folkloric figure and symbol of Easter, depicted as a rabbit—sometimes dressed with clothes—bringing Easter eggs. Originating among German Lutherans, the "Easter Hare" originally played the role of a judge, evaluating whether children were good or disobedient in behavior at the start of the season of Eastertide, similar to the "naughty or nice" list made by Santa Claus. As part of the legend, the creature carries colored eggs in its basket, as well as candy, and sometimes toys, to the homes of children. As such, the Easter Bunny again shows similarities to Santa (or the Christkind) and Christmas by bringing gifts to children on the night before a holiday. The custom was first mentioned in Georg Franck von Franckenau's De ovis paschalibus ('About Easter eggs') in 1682, referring to a German tradition of an Easter Hare bringing eggs for the children. </p>
-        </article>
-        <article>
+          <!-- <h5>Rabbits and Hares</h5> -->
           <h3>Rabbits and Hares</h3>
-          <p>The hare was a popular motif in medieval church art. In ancient times, it was widely believed (as by Pliny, Plutarch, Philostratus, and Aelian) that the hare was a hermaphrodite. The idea that a hare could reproduce without loss of virginity led to an association with the Virgin Mary, with hares sometimes occurring in illuminated manuscripts and Northern European paintings of the Virgin and Christ Child. It may also have been associated with the Holy Trinity, as in the three hares motif.</p>
-        </article>
