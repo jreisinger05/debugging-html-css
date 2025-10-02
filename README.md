@@ -53,23 +53,32 @@
 	text-decoration: none;
 
 ## WAVE Web Accessibility Evaluation corrections:
-1. Very low contrast (3.11:1); Very low contrast between text and background colors.
-/* h2,
-h4,
-h5 {
-	color: #C04402;
-	font-family: 'Architects Daughter', cursive;
-	margin-top: 1em;
-} */
-h2,
-h4,
-h5 {
-	color: #923402;
-	font-family: 'Architects Daughter', cursive;
-	margin-top: 1em;
-}
+1. 
+
 
 ## Other corrections:
 1. Fixed an image file that was not showing.
       <!-- <img src="easter-bunny-150-profile.png" alt="Easter Bunny"> -->
       <img src="images\easter-bunny-150-profile.png" alt="Easter Bunny">
+
+2. Corrected body and nav colors.
+/* body {
+	background-color: #B2D732;
+} */
+body {
+	background-color: #ffffff;
+}
+
+nav {
+	background-color: #B2D732;
+	color: #C04402;
+	font-family: 'Architects Daughter', cursive;
+}
+
+3. Fixed link colors.
+/* a {
+	color: #092834;
+} */
+ a {
+	color: #C04402
+ }
