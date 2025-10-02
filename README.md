@@ -90,3 +90,6 @@ nav {
           <h3>The Easter Bunny</h3>
           <!-- <h5>Rabbits and Hares</h5> -->
           <h3>Rabbits and Hares</h3>
+
+5. Commented out unnecessary breaks underneath the "Eggs" section.
+<!-- <br><br><br><br><br> -->
