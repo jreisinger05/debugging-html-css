@@ -50,10 +50,17 @@ h1 {
 	margin: 0px;
 }
 
-h2,
+/* h2,
 h4,
 h5 {
 	color: #C04402;
+	font-family: 'Architects Daughter', cursive;
+	margin-top: 1em;
+} */
+h2,
+h4,
+h5 {
+	color: #923402;
 	font-family: 'Architects Daughter', cursive;
 	margin-top: 1em;
 }

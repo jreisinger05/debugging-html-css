@@ -52,8 +52,24 @@
 	/* text-decoration: all; */
 	text-decoration: none;
 
-## Contrast Checker corrections:
-1. 
+## WAVE Web Accessibility Evaluation corrections:
+1. Very low contrast (3.11:1); Very low contrast between text and background colors.
+/* h2,
+h4,
+h5 {
+	color: #C04402;
+	font-family: 'Architects Daughter', cursive;
+	margin-top: 1em;
+} */
+h2,
+h4,
+h5 {
+	color: #923402;
+	font-family: 'Architects Daughter', cursive;
+	margin-top: 1em;
+}
 
 ## Other corrections:
-
+1. Fixed an image file that was not showing.
+      <!-- <img src="easter-bunny-150-profile.png" alt="Easter Bunny"> -->
+      <img src="images\easter-bunny-150-profile.png" alt="Easter Bunny">
